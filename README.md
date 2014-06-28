@@ -1,11 +1,7 @@
-# <letter-spacing>
+# &lt;letter-spacing&gt;
 
 An inline custom element to provide `letter-spacing` CSS styling to its contents.
 
-
-## Demo
-
-[See live demo!](http://jabran.me/letter-spacing/index.html)
 
 ## Install
 
@@ -33,3 +29,17 @@ Starting using it:
 ```
 <letter-spacing value="3px">Text goes here</letter-spacing>
 ```
+
+
+## Basic use example
+
+```
+<letter-spacing value="3px">This text is spaced with letter-spacing custom element.</letter-spacing>
+```
+
+**Results in:**
+
+<p style="letter-spacing:3px;">This text is spaced with letter-spacing custom element.</p>
+
+
+
