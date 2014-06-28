@@ -39,7 +39,7 @@ Starting using it:
 
 **Results in:**
 
-<p style="letter-spacing:3px;">This text is spaced with letter-spacing custom element.</p>
+T h i s  t e x t  i s  s p a c e d  w i t h  l e t t e r - s p a c i n g  c u s t o m  e l e m e n t .
 
 
 
