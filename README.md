@@ -2,7 +2,6 @@
 
 An inline custom element to provide `letter-spacing` CSS styling to its contents.
 
-
 ## Install
 
 ```
@@ -30,6 +29,11 @@ Starting using it:
 <letter-spacing value="3px">Text goes here</letter-spacing>
 ```
 
+## Options
+
+Attribute  | Options                              | Default             | Description
+---        | ---                                  | ---                 | ---
+`value`   | *String*                             | ``                  | Spacing value i.e. '3px' or '-3px'
 
 ## Basic use example
 
@@ -37,9 +41,16 @@ Starting using it:
 <letter-spacing value="3px">This text is spaced with letter-spacing custom element.</letter-spacing>
 ```
 
-**Results in:**
+Results in above text spaced by given value.
 
-T h i s  t e x t  i s  s p a c e d  w i t h  l e t t e r - s p a c i n g  c u s t o m  e l e m e n t .
+## Contributing
 
+1. Fork it!
+2. Create your feature branch: `git checkout -b new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin new-feature`
+5. Submit a pull request
 
+## License
 
+[MIT License](http://opensource.org/licenses/MIT)
