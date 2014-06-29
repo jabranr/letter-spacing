@@ -10,7 +10,7 @@
     "css",
     "polymer",
     "letter spacing",
-    "web components"
+    "web-components"
   ],
   "license": "MIT",
   "homepage": "https://github.com/jabranr/letter-spacing",
