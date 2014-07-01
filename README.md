@@ -29,6 +29,12 @@ Starting using it:
 <letter-spacing value="3px">Text goes here</letter-spacing>
 ```
 
+
+## Demo
+
+[See live demo](http://www.jabran.me/letter-spacing/)
+
+
 ## Options
 
 Attribute  | Options                              | Default             | Description
