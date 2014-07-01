@@ -4,7 +4,37 @@
 		<title>CSS letter-spacing as Polymer custom element &amp; Demo</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+		<script src="//polymer-project.org/platform.min.js"></script>
+		<script src="//polymer-project.org/polymer.min.js"></script>
+		<link rel="import" href="dist/letter-spacing.html">
+		<style>
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				line-height: 1.5;
+				color: #333;
+				margin: 0;
+				padding: 0;
+			}
+			code {
+				background-color: #fff4f4;
+				padding: 4px 6px;
+				color: #b84646;
+			}
+			.container {
+				width: 75%;
+				margin: 0 auto;
+			}
+			.list-unstyled {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+			.list-unstyled li {
+				display: inline-block;
+				margin-right: 5px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -16,18 +46,42 @@
 
 			<h3>Basic use:</h3>
 
-			<pre>&lt;letter-spacing value="3px"&gt;This text is spaced with letter-spacing custom element.&lt;/letter-spacing&gt;</pre>
+			<code>&lt;letter-spacing value="3px"&gt;This text is spaced with letter-spacing custom element.&lt;/letter-spacing&gt;</code>
 
 			<h3>Result would be:</h3>
 
-			<p class="lead" style="letter-spacing:3px;">
-				This text is spaced with letter-spacing custom element.
-			</p>
+			<letter-spacing value="3px">
+				<p>This text is spaced with letter-spacing custom element.</p>
+			</letter-spacing>
+
+			<p>&nbsp;</p>
+
+			<ul class="list-unstyled">
+				<li>
+					<a href="https://github.com/jabranr/letter-spacing">Back to Github repo</a>
+				</li>
+				<li>
+					<a href="http://polymer-project.org">Learn Polymer</a>
+				</li>
+			</ul>
 
 			<p>
-				<a href="https://github.com/jabranr/letter-spacing">Back to Github repo</a>
+				<small>
+					Licensed under the MIT License &dash; <a href="http://jabran.me" target="_blank">Jabran Rafique</a>
+				</small>
 			</p>
 
 		</div>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50688851-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
