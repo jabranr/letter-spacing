@@ -4,28 +4,28 @@ An inline custom element to provide `letter-spacing` CSS styling to its contents
 
 ## Install
 
-```
-bower install letter-spacing
+``` shell
+$ bower install letter-spacing
 ```
 
 ## Usage
 
 Import `platform.js` and `polymer.html`
 
-```
+``` html
 <script src="bower_components/platform/platform.js"></script>
 <link rel="import" href="bower_components/polymer/polymer.html" />
 ```
 
 Import `letter-spacing.html`
 
-```
+``` html
 <link rel="import" href="dist/letter-spacing.html" />
 ```
 
 Starting using it:
 
-```
+``` html
 <letter-spacing value="3px">Text goes here</letter-spacing>
 ```
 
@@ -37,7 +37,7 @@ Attribute  | Options                              | Default             | Descri
 
 ## Basic use example
 
-```
+``` html
 <letter-spacing value="3px">This text is spaced with letter-spacing custom element.</letter-spacing>
 ```
 
