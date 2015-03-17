@@ -1,6 +1,6 @@
 {
   "name": "letter-spacing",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "authors": [
     "Jabran Rafique <hello@jabran.me>"
   ],
@@ -21,18 +21,16 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "polymer": "Polymer/polymer",
-    "platform": "Polymer/platform"
+  "dependencies": {
+    "polymer": "Polymer/polymer"
   },
-  "_release": "0.0.5",
+  "_release": "0.0.6",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.5",
-    "commit": "062004ab020358fe114c9baafdaa0dfaac6cfe7a"
+    "tag": "0.0.6",
+    "commit": "4b9ecd02b15f759216ae0dcd4b8587eb71431e9e"
   },
   "_source": "git://github.com/jabranr/letter-spacing.git",
   "_target": "~0.0.5",
-  "_originalSource": "letter-spacing",
-  "_direct": true
+  "_originalSource": "letter-spacing"
 }
