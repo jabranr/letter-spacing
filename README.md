@@ -10,17 +10,14 @@ $ bower install letter-spacing
 
 ## Usage
 
-Import `platform.js`, `polymer.js` and `letter-spacing.html` into HTML document.
+Import `Polymer` and `letter-spacing` into your HTML document.
 
 ``` html
-
 // Get Polymer
-<script src="//www.polymer-project.org/platform.min.js"></script>
-<script src="//www.polymer-project.org/polymer.min.js"></script>
+<script src="bower_components/polymer/polymer.min.js"></script>
 
 // Import letter-spacing element
-<link rel="import" href="dist/letter-spacing.html" />
-
+<link rel="import" href="bower_components/letter-spacing/dist/letter-spacing.html" />
 ```
 
 Starting using it:

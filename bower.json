@@ -1,6 +1,6 @@
 {
   "name": "letter-spacing",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "authors": [
     "Jabran Rafique <hello@jabran.me>"
   ],
@@ -21,8 +21,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "polymer": "Polymer/polymer",
-    "platform": "Polymer/platform"
+  "dependencies": {
+    "polymer": "Polymer/polymer"
   }
 }
