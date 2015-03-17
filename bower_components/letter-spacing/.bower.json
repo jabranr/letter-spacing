@@ -1,0 +1,38 @@
+{
+  "name": "letter-spacing",
+  "version": "0.0.5",
+  "authors": [
+    "Jabran Rafique <hello@jabran.me>"
+  ],
+  "description": "An inline custom element to provide letter-spacing CSS styling to its contents.",
+  "main": "dist/letter-spacing.html",
+  "keywords": [
+    "css",
+    "polymer",
+    "letter spacing",
+    "web-components"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jabranr/letter-spacing",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "polymer": "Polymer/polymer",
+    "platform": "Polymer/platform"
+  },
+  "_release": "0.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.5",
+    "commit": "062004ab020358fe114c9baafdaa0dfaac6cfe7a"
+  },
+  "_source": "git://github.com/jabranr/letter-spacing.git",
+  "_target": "~0.0.5",
+  "_originalSource": "letter-spacing",
+  "_direct": true
+}
