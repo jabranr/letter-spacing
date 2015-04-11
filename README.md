@@ -56,4 +56,6 @@ Results in above text spaced by given value.
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://opensource.org/licenses/MIT) - &copy; Jabran Rafique 2014
+
+[![Analytics](https://ga-beacon.appspot.com/UA-50688851-1/socialmedia)](https://github.com/igrigorik/ga-beacon)
